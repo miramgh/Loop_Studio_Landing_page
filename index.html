@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>Frontend Mentor | Loopstudios landing page</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="./images/logo.svg" alt="Logo icon" />
+        <ul>
+          <li>About</li>
+          <li>Careers</li>
+          <li>Events</li>
+          <li>Support</li>
+          <li>Products</li>
+        </ul>
+        <img
+          src="./images/icon-hamburger.svg"
+          alt="menu button"
+          class="menu-button"
+        />
+      </nav>
+
+      <div class="mobile-navigation">
+        <div>
+          <img src="./images/logo.svg" alt="Logo icon" />
+          <img src="./images/icon-close.svg" alt="close icon" class="close" />
+        </div>
+        <ul>
+          <li>About</li>
+          <li>Careers</li>
+          <li>Events</li>
+          <li>Support</li>
+          <li>Products</li>
+        </ul>
+      </div>
+
+      <h1 class="headline">Immersive experiences that deliver</h1>
+    </header>
+    <main>
+      <div class="landing">
+        <img
+          src="./images/desktop/image-interactive.jpg"
+          srcset="
+            ./images/desktop/image-interactive.jpg 2400w,
+            ./images/mobile/image-interactive.jpg   850w
+          "
+          alt="just a bg image"
+        />
+        <div>
+          <h1>The leader in interactive VR</h1>
+          <p>
+            Founded in 2011, Loopstudios has been producing world-class virtual
+            reality projects for some of the best companies around the globe.
+            Our award-winning creations have transformed businesses through
+            digital experiences that bind to their brand.
+          </p>
+        </div>
+      </div>
+      <div class="creations">
+        <div class="creations__bar">
+          <h1>Our creations</h1>
+          <button class="see-all">See all</button>
+        </div>
+        <div class="creations__content">
+          <div class="card">
+            <img
+              src="./images/desktop/image-deep-earth.jpg"
+              alt="Deep earth image"
+            />
+            <img
+              src="./images/mobile/image-deep-earth.jpg"
+              alt="Deep earth image"
+              class="small-screen"
+            />
+            <p>Deep earth</p>
+          </div>
+          <div class="card">
+            <img
+              src="./images/desktop/image-night-arcade.jpg"
+              alt="Night arcade image"
+            />
+            <img
+              src="./images/mobile/image-night-arcade.jpg"
+              alt="Night arcade image"
+              class="small-screen"
+            />
+            <p>Night arcade</p>
+          </div>
+          <div class="card">
+            <img
+              src="./images/desktop/image-soccer-team.jpg"
+              alt="Soccer team VR image"
+            />
+            <img
+              src="./images/mobile/image-soccer-team.jpg"
+              alt="Soccer team VR image"
+              class="small-screen"
+            />
+            <p>Soccer team VR</p>
+          </div>
+          <div class="card">
+            <img src="./images/desktop/image-grid.jpg" alt="The grid image" />
+            <img
+              src="./images/mobile/image-grid.jpg"
+              alt="The grid image"
+              class="small-screen"
+            />
+            <p>The grid</p>
+          </div>
+          <div class="card">
+            <img
+              src="./images/desktop/image-from-above.jpg"
+              alt="up above VR image"
+            />
+            <img
+              src="./images/mobile/image-from-above.jpg"
+              alt="up above VR image"
+              class="small-screen"
+            />
+            <p>From up above VR</p>
+          </div>
+          <div class="card">
+            <img
+              src="./images/desktop/image-pocket-borealis.jpg"
+              alt="Pocket borealis image"
+            />
+            <img
+              src="./images/mobile/image-pocket-borealis.jpg"
+              alt="Pocket borealis image"
+              class="small-screen"
+            />
+            <p>Pocket borealis</p>
+          </div>
+          <div class="card">
+            <img
+              src="./images/desktop/image-curiosity.jpg"
+              alt="The curiosity image"
+            />
+            <img
+              src="./images/mobile/image-curiosity.jpg"
+              alt="The curiosity image"
+              class="small-screen"
+            />
+            <p>The curiosity</p>
+          </div>
+          <div class="card">
+            <img
+              src="./images/desktop/image-fisheye.jpg"
+              alt="Make it fisheye image"
+            />
+            <img
+              src="./images/mobile/image-fisheye.jpg"
+              alt="Make it fisheye image"
+              class="small-screen"
+            />
+            <p>Make it fisheye</p>
+          </div>
+          <button class="see-all small-screen-button">See all</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <img src="./images/logo.svg" alt="logo image" />
+        <ul class="row">
+          <li>About</li>
+          <li>Careers</li>
+          <li>Events</li>
+          <li>Products</li>
+          <li>Support</li>
+        </ul>
+        <ul>
+          <li>
+            <img src="./images/icon-facebook.svg" alt="icon facebook" />
+          </li>
+          <li>
+            <img src="./images/icon-twitter.svg" alt="icon twitter" />
+          </li>
+          <li>
+            <img src="./images/icon-pinterest.svg" alt="icon pinterest" />
+          </li>
+          <li>
+            <img src="./images/icon-instagram.svg" alt="icon instagram" />
+          </li>
+        </ul>
+        <small>© 2021 Loopstudios. All rights reserved. </small>
+        <div class="attribution">
+          Challenge by
+          <a href="" target="_blank">
+            Frontend Mentor</a
+          >. Coded by <a href="https://www.linkedin.com/in/amira-ghieth-67790b192/">Mira M-Gh</a>.
+        </div>
+      </div>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
